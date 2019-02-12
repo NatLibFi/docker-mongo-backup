@@ -1,4 +1,4 @@
-FROM mongo:3
+FROM mongo:4
 ENTRYPOINT ["/entrypoint.sh"]
 
 ENV DUMP_DIRECTORY /dump
