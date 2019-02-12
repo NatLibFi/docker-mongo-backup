@@ -4,7 +4,7 @@ pipeline:
   docker:
     image: plugins/docker
     registry: quay.io
-    repo: quay.io/natlibfi/mariadb-backup
+    repo: quay.io/natlibfi/mongo-backup
     secrets:
     - docker_username
     - docker_password
